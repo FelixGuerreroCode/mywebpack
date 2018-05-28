@@ -1,4 +1,10 @@
-const add = ( a, b ) => a +b;
+const R = require( "ramda" );
+
+const add = ( a, b ) => {
+	var isString = R.is( String );
+	console.log( "testing: " + isString( "testing" ) );
+	return a + b;	
+};
 
 //export default add;
-module.exports = (a, b) => a + b;
+module.exports = add;
