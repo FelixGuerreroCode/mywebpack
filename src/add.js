@@ -1,4 +1,4 @@
-const addMe = ( a, b ) => a +b;
+const add = ( a, b ) => a +b;
 
-export default addMe;
-//module.exports = (a, b) => a + b;
+//export default add;
+module.exports = (a, b) => a + b;
