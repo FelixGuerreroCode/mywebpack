@@ -1,8 +1,7 @@
 {
-  "presets": [
-    ["env", {
-      "modules": false
-    }]
-  ],
-  "plugins": ["syntax-dynamic-import"]
+	"plugins": ["syntax-dynamic-import"],
+	"presets": [
+		"env", 
+		[ "es2015", { "modules": false } ]
+	]
 }
