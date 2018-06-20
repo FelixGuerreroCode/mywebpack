@@ -10,18 +10,15 @@ function isTrue( x ){
 function factorial( num ){
 	var nextNumber = num - 1;
 	if( nextNumber === 1 ){
-		console.log( "calculation :>>>>>>> " + num );
 		return num;
 	}
 	var mult =  num * factorial( nextNumber );
-	console.log( "calculation : " + num  + "next " + nextNumber );
 	return mult;
 }
 
 const add = ( a, b ) => {
 	var maxNumber = 5;
 	var theFactorial = factorial( maxNumber );
-	console.log( ">>>>>>>>>>>> " + theFactorial );
 
 
 	var names = [ " ONe", " TWO ", " three  " ];
