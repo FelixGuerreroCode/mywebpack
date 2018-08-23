@@ -3,6 +3,7 @@ const R = require("Ramda");
 const Bacon = require("baconjs");
 const addModule = require("../src/add");
 
+<<<<<<< HEAD
 function isAmerican( person ){
 	return person.country === "USA"; 
 }
@@ -124,5 +125,13 @@ describe("testing2", () => {
 			console.log( activeUsers );
 			assert.equal( true, true, "The value of zip is incorrect" );
 		});
+=======
+
+describe("Demo Config assss", () => {
+	it("should add correctly for once", () => {
+		assert.equal(add(1, 1), 2);
+>>>>>>> 824e204693f74287e6bb50a9e6963e8d02dda494
 	});
 });
+
+

@@ -1,2 +1,18 @@
 npm run develop 
 npm run production 
+
+
+
+-----------------------------------------------------------
+This issue fixes the problem with JSHINT
+
+this seems to be fixed by modifying this line
+jshint.vim/ftplugin/javascript/jshint.vim
+
+Line 219 in b7eee84
+
+ call setqflist(b:qf_list, '') 
+ to
+ call setqflist(b:qf_list, ' ')
+
+ (notice the extra space inside the quotes).
