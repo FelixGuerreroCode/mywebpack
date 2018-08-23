@@ -1,0 +1,7 @@
+R.always : returns a function that returns always the same values. The funtion cannot be manipulated to return a different value. 
+
+R.ltg : functions to compare values. You need to use R.__ at the begining
+R.lt : functions to compare values. You need to use R.__ at the begining
+
+
+
